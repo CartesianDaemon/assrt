@@ -1,0 +1,32 @@
+FLAWS
+
+Test a wider variety of expressions, that the rsst! macro chooses a helpful set of subexpressions to display.
+Test conditions with side-effects. Needs at least a warning, or to fix display to cope with them.
+
+Confirm name for crate and macros before sharing any more widely.
+
+FUNCTIONALITY
+
+Add an optional assert message in place of the assert condition, as with assert!().
+
+IMPROVEMENTS
+
+Test out in tilegame.
+Add wider and more persuasive examples.
+Update README.
+Add todo.txt to .gitignore, to track contents but not count as dirty.
+
+Add tests that macro fails to compile when appropriate
+Convert some examples to explicit doc examples/tests.
+
+Share draft with people.
+ Check how well the explanation works.
+ Check what people use that fulfils this role better.
+
+REFACTOR
+
+Rewrite csst! as a macro_rules. Or remove it if it's redundant with rsst!.
+
+BUGS
+
+Test csst! with multiple comparison operators.
